@@ -2,14 +2,6 @@
 
 This is a test to understand the Kaggle API
 
-To use the Kaggle API, sign up for a Kaggle account at https://www.kaggle.com. Then go to the 'Account' tab of your user profile (https://www.kaggle.com/<username>/account) and select 'Create API Token'. This will trigger the download of kaggle.json, a file containing your API credentials. Place this file in the location appropriate for your operating system.
-
-Next export your Kaggle username and token to the environment:
-export KAGGLE_USERNAME=shanerm
-export KAGGLE_KEY=5550d3d122cac9f33ea852970a9186cd
-
-Here’s the formatted version of README.md that can be directly copied and pasted into a file:
-
 # Automated Data Pipeline and Reporting Solution
 
 This project automates the data pipeline and reporting process for the `supermarket_sales.csv` dataset using Google Cloud and Python. The solution includes data ingestion, transformation, and real-time reporting with a focus on scalability and automation.
@@ -23,6 +15,8 @@ This project automates the data pipeline and reporting process for the `supermar
 ---
 
 ## Prerequisites
+
+To use the Kaggle API, sign up for a Kaggle account at https://www.kaggle.com. Then go to the 'Account' tab of your user profile (https://www.kaggle.com/<username>/account) and select 'Create API Token'. This will trigger the download of kaggle.json, a file containing your API credentials. Place this file in the location appropriate for your operating system.
 
 ### 1. Environment Variables
 Set up your Kaggle API credentials as environment variables:
