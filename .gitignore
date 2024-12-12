@@ -129,6 +129,9 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+supermarket_sales.db
+kaggle.json
+.python-version
 
 # Spyder project settings
 .spyderproject
